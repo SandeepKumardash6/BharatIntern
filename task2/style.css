@@ -1,0 +1,113 @@
+body {
+    background: #66a6ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+h2, label, p {
+   color: #fcfcfc;
+   margin: 8px 0;
+   text-align: center;
+}
+#search{
+   background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: block;
+   align-items: center;
+   justify-content: left;
+   margin: 0;
+}
+#box{
+   background: rgba(255, 255, 255, 0.1);
+   max-width: 100%;
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(10px);
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   text-align: center;
+
+}
+input {
+   width: 95%;
+   padding: 8px;
+   box-sizing: border-box;
+   border-radius: 10px;
+   border: 1px solid white;
+   margin-top: 20px;
+}
+
+button {
+   background:rgb(8, 136, 249);
+   width: 10vh;
+   padding: 8px;
+   box-sizing: border-box;
+   border-radius: 10px;
+   border: 1px solid white;
+   margin-top: 20px;
+}
+
+button:hover {
+   background: #09486c;
+}
+
+#temp-div p {
+   font-size: 60px;
+   margin-top: -30px;
+}
+
+#weather-info {
+   font-size: 20px;
+}
+
+#weather-icon {
+   width: 200px;
+   height: 200px;
+   margin: 0 auto 10px; 
+   margin-bottom: 0;
+   display: none;
+}
+
+#hourly-forecast {
+   margin-top: 50px;
+   overflow-x: auto;
+   white-space: nowrap;
+   display: flex;
+   justify-content: space-between;
+}
+
+.hourly-item {
+   flex: 0 0 auto;
+   width: 80px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-right: 10px;
+   color: white;
+}
+
+.hourly-item img {
+   width: 30px;
+   height: 30px;
+   margin-bottom: 5px;
+}
+
+#hourly-heading {
+   color: #fff;
+   margin-top: 10px;
+}
+footer {
+   background: #66a6ff;
+   color: #fcfcfc;
+   padding: 20px;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer a {
+   color: #fcfcfc;
+   text-decoration: none;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
